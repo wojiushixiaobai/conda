@@ -112,6 +112,7 @@ non_x86_machines = {
     "armv7l",
     "aarch64",
     "arm64",
+    "loongarch64",
     "ppc64",
     "ppc64le",
     "riscv64",

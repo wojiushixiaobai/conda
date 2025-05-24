@@ -21,6 +21,7 @@ class Arch(Enum):
     armv7l = "armv7l"
     # aarch64 is for Linux only
     aarch64 = "aarch64"
+    loongarch64 = "loongarch64"
     ppc64 = "ppc64"
     ppc64le = "ppc64le"
     riscv64 = "riscv64"

@@ -130,6 +130,7 @@ def get_virtual_precs() -> Iterable[PackageRecord]:
         pytest.param("linux-aarch64", ["__linux", "__unix"], id="linux-aarch64"),
         pytest.param("linux-armv6l", ["__linux", "__unix"], id="linux-armv6l"),
         pytest.param("linux-armv7l", ["__linux", "__unix"], id="linux-armv7l"),
+        pytest.param("linux-loongarch64", ["__linux", "__unix"], id="linux-loongarch64"),
         pytest.param("linux-ppc64", ["__linux", "__unix"], id="linux-ppc64"),
         pytest.param("linux-ppc64le", ["__linux", "__unix"], id="linux-ppc64le"),
         pytest.param("linux-riscv64", ["__linux", "__unix"], id="linux-riscv64"),

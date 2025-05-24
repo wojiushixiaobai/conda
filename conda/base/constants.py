@@ -86,6 +86,7 @@ KNOWN_SUBDIRS: Final = (
     "linux-aarch64",
     "linux-armv6l",
     "linux-armv7l",
+    "linux-loongarch64",
     "linux-ppc64",
     "linux-ppc64le",
     "linux-riscv64",
